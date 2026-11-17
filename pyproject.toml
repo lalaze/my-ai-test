@@ -8,7 +8,16 @@ dependencies = [
     "inspect-ai",
     "anthropic",
     "openai",
+    "playwright>=1.65.2",
 ]
 
-[tool.uv]
-package = false
+# 注册本地 CLI 模型（claude-code/...、codex/...），Inspect 启动时会自动加载
+[project.entry-points.inspect_ai]
+local_models = "local_models._registry"
+
+[build-system]
+requires = ["hatchling"]
+build-backend = "hatchling.build"
+
+[tool.hatch.build.targets.wheel]
+packages = ["local_models"]

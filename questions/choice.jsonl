@@ -1,4 +1,0 @@
-{"id": "choice-001", "category": "python", "question": "在 Python 中，下面哪个表达式的结果是 True？", "choices": ["0.1 + 0.2 == 0.3", "[] is []", "'a' * 3 == 'aaa'", "None == False"], "answer": "C"}
-{"id": "choice-002", "category": "algorithm", "question": "对一个长度为 n 的有序数组做二分查找，最坏情况下的时间复杂度是？", "choices": ["O(1)", "O(log n)", "O(n)", "O(n log n)"], "answer": "B"}
-{"id": "choice-003", "category": "network", "question": "HTTP 状态码 404 表示什么？", "choices": ["服务器内部错误", "请求的资源不存在", "未授权", "请求被重定向"], "answer": "B"}
-{"id": "choice-004", "category": "git", "question": "下面哪个 git 命令会把暂存区的改动撤回到工作区，但不丢弃改动内容？", "choices": ["git reset --hard HEAD", "git restore --staged <file>", "git clean -fd", "git checkout -- <file>"], "answer": "B"}
