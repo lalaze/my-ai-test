@@ -1,0 +1,14 @@
+[project]
+name = "my-ai-test"
+version = "0.1.0"
+description = "基于 Inspect AI 的 AI 测试题库"
+readme = "README.md"
+requires-python = ">=3.11,<3.14"
+dependencies = [
+    "inspect-ai",
+    "anthropic",
+    "openai",
+]
+
+[tool.uv]
+package = false
